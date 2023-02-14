@@ -14,3 +14,5 @@
   * DATE="2023-02-18" NUMBER=10 nightwatch
 
 * The report is located at tests_out>nightwatch-html-report>index.html
+
+* Parallel Test DATE="2023-02-18" NUMBER=10 nightwatch --env chrome,firefox
