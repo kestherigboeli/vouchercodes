@@ -1,12 +1,12 @@
 # vouchercodes
 
-# There are several reasons why I use Nightwatch.js for end-to-end testing:
+### There are several reasons why I use Nightwatch.js for end-to-end testing: ###
 * It is easy to set up.
 * Nightwatch comes with built-in API, making it easy to interact with web pages and perform common actions.
 * Nightwatch supports many browsers, including Chrome, Firefox, Safari, and Edge.
 * Nightwatch can be integrated with other testing tools, such as Selenium, to provide even more functionality.
 
-# Steps for Testing
+### Steps for Testing ###
 * install node via npm or yarn
 * Clone the repository
 * install all dependencies by # npm install
