@@ -7,7 +7,7 @@ let searchCommands = {
         let dialogTitle = "(//*[contains(@class, 'scrolling-touch')]//span)[4]"
         let dialogBtn = "(//span[@data-qa='el:adminableCategoryText'])[4]"
         let restaurantHeaderTitle = "//h1[@data-qa='el:restaurantHeading']"
-        let restaurantTitle = "Fin restaurant vouchers & offers near you"
+        let restaurantTitle = "Find restaurant vouchers & offers near you"
         let autoComplete = "//input[@id='google-autocomplete']"
         let selectedDate= `//*[@id='day-select']/option[@value='${date}']`
         let selectedNumber= `//*[@id='people-select']/option[@value='${number}']`
