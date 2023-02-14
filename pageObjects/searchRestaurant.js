@@ -7,7 +7,7 @@ let searchCommands = {
         let dialogTitle = "(//*[contains(@class, 'scrolling-touch')]//span)[4]"
         let dialogBtn = "(//span[@data-qa='el:adminableCategoryText'])[4]"
         let restaurantHeaderTitle = "//h1[@data-qa='el:restaurantHeading']"
-        let restaurantTitle = "Find restaurant vouchers & offers near you"
+        let restaurantTitle = "Fin restaurant vouchers & offers near you"
         let autoComplete = "//input[@id='google-autocomplete']"
         let selectedDate= `//*[@id='day-select']/option[@value='${date}']`
         let selectedNumber= `//*[@id='people-select']/option[@value='${number}']`
@@ -40,6 +40,8 @@ let searchCommands = {
                     .keyDown(Keys.DOWN)
                     .keyDown(Keys.ENTER)
             })
+            .waitForElementVisible(selectedDate)
+            .waitForElementVisible(selectedNumber)
             .click(selectedDate)
             .click(selectedNumber)
             .click(searchBtn)
