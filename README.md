@@ -1,5 +1,4 @@
 # vouchercodes
-Sample code
 
 # There are several reasons why i Nightwatch.js for end-to-end testing:
 * It is easy to set up.
@@ -7,11 +6,11 @@ Sample code
 * Nightwatch supports a wide range of browsers, including Chrome, Firefox, Safari, and Edge.
 * Nightwatch can be integrated with other testing tools, such as Selenium, to provide even more functionality.
 
-Steps for Setp
+# Steps for Testing
 * install node via npm or yarm
 * Clone the repository
 * install all dependences by # npm install
 * Enter this code to run the test # DATE=<Date in format Year,Month, Day exmaple "2023-02-18"> NUMBER=<number between 1 to 10 or 10+> nightwatch
 * # for test to fail, enter invalid date or number. 
 
-# The report is located at tests_out>nightwatch-html-report>index.html
+* The report is located at tests_out>nightwatch-html-report>index.html
