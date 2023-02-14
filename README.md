@@ -10,7 +10,7 @@
 * install node via npm or yarn
 * Clone the repository
 * install all dependencies by # npm install
-* Enter this code to run the test # <p>DATE=<Date in format Year,Month, Day exmaple "2023-02-18"> NUMBER=<number between 1 to 10 or 10+> nightwatch </p>
+* Enter this code to run the test # > (DATE="2023-02-18" NUMBER=10 nightwatch) < <p>DATE=<Date in format Year,Month, Day exmaple "2023-02-18"> NUMBER=<number between 1 to 10 or 10+> nightwatch </p>
   * DATE="2023-02-18" NUMBER=10 nightwatch
 
 * The report is located at tests_out>nightwatch-html-report>index.html
