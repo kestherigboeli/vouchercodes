@@ -1,0 +1,6 @@
+node_modules
+tests_output
+chromedriver.log
+screens
+.idea
+.DS_Store
